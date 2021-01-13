@@ -39,4 +39,4 @@ Cookies are used by the server to implement sessions.  As we went over earlier, 
 Logging in is just storing a user's ID in the session hash.  We use a key to store a user's ID like this: `session[:user_id] = user.id`.  This means that logging out is also just clearing the session hash: `session.clear`.    
  
 
-![Screen Shot 2021-01-12 at 5.51.56 PM]()
+https://imgur.com/a/gXtDNqH
