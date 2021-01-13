@@ -36,7 +36,7 @@ There are no cookies when a user's browser first connects with a website's serve
 
 Cookies are used by the server to implement sessions.  As we went over earlier, sessions allow for the application to remember a user as they move to different pages.  A particular session will last from the time you log in as a user to the the time you log out or close your brower.  Relying on the browser and server like this in order to store small amounts of user's data(usually < 4 KB) allows for HTTP to be stateless while providing a good experience for the user.  
 # What does it mean to log in a user?
-Logging in is just storing a user's ID in the session hash.  We use a key to store a user's ID like this: `session[:user_id] = user.id`.  This means that logging out is also just clearing the session hash: `session.clear`.    
+Logging in is just storing a user's ID in the session hash.  We use a key to store a user's ID like this: `session[:user_id] = user.id`.  This means that logging out is also just clearing the session hash: `session.clear`.  This is illustrated below with the image of a binding.pry session in my sinatra movie app.  
  
 
 
