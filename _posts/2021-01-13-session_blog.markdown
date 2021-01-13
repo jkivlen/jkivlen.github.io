@@ -40,5 +40,5 @@ Logging in is just storing a user's ID in the session hash.  We use a key to sto
  
 
 
-![session](session-imgur.png)
+![](https://imgur.com/a/gXtDNqH/image.jpg)
 
